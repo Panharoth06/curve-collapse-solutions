@@ -396,8 +396,10 @@ There she blows.
 
 ## 10. Running the Proof-of-Concept
 
-The repository ships with two files that do the work:
+The repository ships with four files that do the work:
 
+- `check.py` — peek at the prime and factor `p ± 1`.
+- `analyze.py` — factor `f(x)` over `F_p`.
 - `cantor.py` — pure-Python Cantor's algorithm on a genus-2 Jacobian.
 - `solve.py` — end-to-end attack: reshape → Pohlig–Hellman → decrypt.
 
