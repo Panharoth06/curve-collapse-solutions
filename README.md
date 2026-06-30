@@ -331,7 +331,7 @@ The recipe for one prime power `ℓ^e`:
 
 For our `(p+1)` the biggest prime is 31, so each "brute force" only tries 31 possibilities. The most expensive factor was `13¹⁰` ≈ 2³⁷, but Pohlig–Hellman turns it into about `10·13 ≈ 130` group operations. Trivial.
 
-The full PHP solver is in `php2.py`. Output:
+The full PHP solver is in `solve.py`. Output:
 
 ```
 ell=2^23:  k ≡ 5374250         (mod 8388608)        [0.19s]
